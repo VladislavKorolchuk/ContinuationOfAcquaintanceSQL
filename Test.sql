@@ -1,0 +1,1 @@
+SELECT  category, SUM(amount) as amount FROM  expenses GROUP BY category
